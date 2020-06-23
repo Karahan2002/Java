@@ -1,3 +1,5 @@
+//In this code we can create and write a new file using File and FileWriter classes
+
 import java.io.File;
 import java.io.FileWriter;
 
