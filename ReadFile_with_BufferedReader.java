@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class main{
+public class ReadFile_with_BufferedReader{
         public static void main(String[]args){
                 File f = new File("yakup.txt");
                 try{
