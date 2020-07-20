@@ -2,7 +2,7 @@ import java.io.*;
 
 public class main{
         public static void main(String[]args){
-                File file = new File("yakup.txt");
+                File file = new File("your file name");
 
                 //reading file
                 try{
