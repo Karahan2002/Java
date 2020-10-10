@@ -1,6 +1,6 @@
 import java.net.*;
 
-public class main{
+public class URLConnection{
         public static void main(String[]args){
                 try{
                         URL url = new URL("a url");
