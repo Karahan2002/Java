@@ -1,6 +1,6 @@
 import java.io.File;
 import java.io.FileWriter;
-public class main{
+public class FileInfoWriter{
         public static void main(String[]args){
                 File file = new File("yakup.txt");
                 File file2 = new File("fileInfo.txt");
