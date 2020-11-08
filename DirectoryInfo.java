@@ -4,7 +4,7 @@ import java.nio.*;
 public class DirectoryInfo{
         public static void main(String[]args){
                 try{
-                        Path p = Paths.get("yakup");
+                        Path p = Paths.get(a path);
 
                         if(Files.exists(p)){
                                 System.out.println("Directory information : ");
