@@ -6,13 +6,22 @@ public class changemaker{
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("enter a number from 1-99 : ");
-		int user_amount = scan.nextInt();
-		
-		if(user_amount>1 && user_amount<100) {
-			changeMaker(user_amount);
-		}else {
-			System.out.println("Invalid data");
-		}
+		int attempt = 0;
+		do {
+			int user_amount = scan.nextInt();
+			if(user_amount>1 && user_amount<100) {
+				changeMaker(user_amount);
+				break;
+			}else {
+				attempt++;
+				if(attempt == 3) {
+					System.out.println("sorry, no more attempt");
+					break;
+				}else {
+					System.out.println("Try again");
+				}
+			}
+		}while(true);
 	}
 	public static void changeMaker(int amount) {
 
