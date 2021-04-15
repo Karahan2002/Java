@@ -1,6 +1,6 @@
 package yakup;
 
-public class emoji{
+public class main{
 	public static void main(String[] args) {
 		String emoji = ":)";
 		if(emoji.length()!=2) {
@@ -27,6 +27,8 @@ public class emoji{
 			}else {
 				System.out.println("Unknown emoji");
 			}
+		}else {
+			System.out.println("Invalid");
 		}
 	}
 }
